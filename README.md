@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  
  ##### Client is hosted at https://merng-social-network-client.herokuapp.com/
  ##### Server is hosted at https://merng-social-network-server.herokuapp.com/
- ###### Link to srever repository https://github.com/aashishwastaken/MERNG-SocialNetwork-Server
+ ###### Link to server repository https://github.com/aashishwastaken/MERNG-SocialNetwork-Server
  
 ## Available Scripts
 
