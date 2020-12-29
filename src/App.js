@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import 'semantic-ui-css/semantic.min.css';
+import AuthRoute from './utils/AuthRoute';
 import './App.css';
+import MenuBar from './components/MenuBar';
+import Home from './pages/home';
+import Login from './pages/login';
+import Register from './pages/register';
+import {AuthProvider} from './context/auth';
+import SinglePost from './pages/SinglePost';
+import GoogleAuth from './utils/googleAuth';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    
+    <AuthProvider>
+    <Router>
+    <div className="ui container">
+      <MenuBar />
+      <Switch>
+      <Route exact path="/" component={Home} />
+      <AuthRoute exact path="/login" component={Login} />
+      <AuthRoute exact path="/register" component={Register} />
+      <Route exact path="/posts/:postId" component={SinglePost} />
+      <Route exact path="/authenticate/google" component={GoogleAuth} />
+     
+      </Switch>
+      </div>
+    </Router>
+    </AuthProvider>
+    
   );
 }
 
