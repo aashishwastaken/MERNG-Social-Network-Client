@@ -11,7 +11,7 @@ import {AuthContext} from '../context/auth';
 
 const stringifiedParams=queryString.stringify({
     client_id:process.env.GOOGLE_CLIENT_ID || process.env.REACT_APP_GOOGLE_CLIENT_ID,
-    redirect_uri:'https://merng-social-network.netlify.app/authenticate/google',
+    redirect_uri:'https://merng-social-network-client.herokuapp.com/authenticate/google',
     scope:['https://www.googleapis.com/auth/userinfo.profile','https://www.googleapis.com/auth/userinfo.email'].join(' '),
     response_type:'code',
     assecc_type:'offline',
