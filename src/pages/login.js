@@ -10,7 +10,7 @@ import {AuthContext} from '../context/auth';
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 const stringifiedParams=queryString.stringify({
-    client_id:process.env.REACT_APP_GOOGLE_CLIENT_ID,
+    client_id:process.env.GOOGLE_CLIENT_ID,
     redirect_uri:'https://merng-social-network.netlify.app/authenticate/google',
     scope:['https://www.googleapis.com/auth/userinfo.profile','https://www.googleapis.com/auth/userinfo.email'].join(' '),
     response_type:'code',
