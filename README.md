@@ -7,7 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  - Users can create, like, comment and delete(only their own) posts.
  #### Semantic UI is also used with React.
  #### @apollo/client is used for using GraphQL queries and mutations.
-
+ 
+ ##### Client is hosted at https://merng-social-network-client.herokuapp.com/
+ ##### Server is hosted at https://merng-social-network-server.herokuapp.com/
+ ###### Link to srever repository https://github.com/aashishwastaken/MERNG-SocialNetwork-Server
+ 
 ## Available Scripts
 
 In the project directory, you can run:
