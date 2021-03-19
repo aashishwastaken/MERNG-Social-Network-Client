@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## This is a social neworking application made by using the MERNG Stack.
+## This is a social networking application made by using the MERNG Stack.
  - Users can login using Google(Google Auth 2.0 API) or by registering.
  - Users can create, like, comment and delete(only their own) posts.
  #### Semantic UI is also used with React.
