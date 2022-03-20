@@ -28,6 +28,13 @@ export default function MenuBar() {
             }
            
         />
+        <Menu.Item
+            name='github'
+            active={activeItem === 'github'}
+            onClick={handleItemClick}
+            as={Link}
+            to="https://github.com/aashishwastaken/MERNG-SocialNetwork-Client"
+        />
        
     </Menu.Menu>
 </Menu>):(<Menu pointing secondary size="massive" color="teal">
@@ -53,6 +60,13 @@ export default function MenuBar() {
             onClick={handleItemClick}
             as={Link}
             to="/register"
+        />
+         <Menu.Item
+            name='github'
+            active={activeItem === 'github'}
+            onClick={handleItemClick}
+            as={Link}
+            to="https://github.com/aashishwastaken/MERNG-SocialNetwork-Client"
         />
     </Menu.Menu>
 </Menu>);
