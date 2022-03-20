@@ -32,7 +32,7 @@ export default function MenuBar() {
             name='github'
             active={activeItem === 'github'}
             onClick={handleItemClick}
-            as={a}
+            as='a'
             href="https://github.com/aashishwastaken/MERNG-SocialNetwork-Client"
         />
        
@@ -65,7 +65,7 @@ export default function MenuBar() {
             name='github'
             active={activeItem === 'github'}
             onClick={handleItemClick}
-            as={a}
+            as='a'
             href="https://github.com/aashishwastaken/MERNG-SocialNetwork-Client"
         />
     </Menu.Menu>
