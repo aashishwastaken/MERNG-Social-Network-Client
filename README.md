@@ -7,7 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  - Users can login using Google(Google Auth 2.0 API) or by registering.
  - Users can create, like, comment and delete(only their own) posts.
 
-
  #### Semantic UI is also used with React.
  #### @apollo/client is used for using GraphQL queries and mutations.
  
